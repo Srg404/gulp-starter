@@ -10,8 +10,8 @@ const sourcemaps = require('gulp-sourcemaps');
 const browsersync = require('browser-sync').create();
 
 const src = {
-  sassPath: "src/scss/**/*.scss",
-  jsPath: "src/js/**/*.js",
+  sassPath: "_src/scss/**/*.scss",
+  jsPath: "_src/js/**/*.js",
   mapPath: ".",
 }
 
